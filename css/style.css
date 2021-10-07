@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../img/header-bg.jpg');
+    height    : 100vh;
+}
+
+nav img {
+    width         : 150px;
+    height        : auto;
+    vertical-align: middle;
+}
+
+nav a.logo {
+    display    : inline-block;
+    line-height: 90px;
+    margin     : 3%;
+}
+
+header nav {
+    height: 90px;
+}
+
+nav .signin {
+    color           : white;
+    float           : right;
+    background-color: #e50914;
+    line-height     : normal;
+    margin-top      : 18px;
+    margin-right    : 3%;
+    font-weight     : 400;
+    border-radius   : 3px;
+    font-size       : 16px;
+    text-decoration : none;
+    padding         : 7px 17px;
+}

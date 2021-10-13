@@ -18,13 +18,50 @@
             </a>
             <a class="signin" href="https://www.netflix.com/in/login">Sign In</a>
         </nav>
+        <section class="pitch">
+            <h1 class="pitch__title">See what's next</h1>
+            <h3 class="pitch__subtitle">WATCH ANYWHERE, CANCEL ANYTIME</h3>
+            <button class="btn">JOIN FREE FOR A MONTH</button>
+        </section>
     </header>
-    <section class="pitch">
-        <h1 class="pitch__title">See what's next</h1>
-        <h3 class="pitch__subtitle">WATCH ANYWHERE, CANCEL ANYTIME</h3>
-        <button class="btn">JOIN FREE FOR A MONTH</button>
+    <div id="features">
+        <nav>
+            <div class="center columns size-80">
+                <a href="#" class="column is-selected" data-id="cancel">
+                    <img src="img/optout.png">
+                    <h2>No Commitments<br />Cancel online at anytime</h2>
+                </a>
+                <a href="#" class="column" data-id="watchanywhere">
+                    <img src="img/devices.png">
+                    <h2>Watch Anywhere</h2>
+                </a>
+                <a href="#" class="column" data-id="pickprice">
+                    <img src="img/price.png">
+                    <h2>Pick your plan</h2>
+                </a>
+            </div>
+            <article>
+                <section class="is-selected size-70" data-id="cancel">
+                    <div class="columns">
+                        <div class="column">
+                            <h2>
+                                If you decide Netphlix isn’t for you, you can cancel anytime.
+                            </h2>
+                            <button class="btn btn-large">JOIN FREE FOR A MONTH</button>
+                        </div>
+                        <div class="column">
+                            <img src="img/optout.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="center size-80"  id="watchanywhere" data-id="watchanywhere">About Feature 2</section>
+                <section data-id="pickprice">About Feature 3</section>
+            </article>
+        </nav>
+    </div>
 
-    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
